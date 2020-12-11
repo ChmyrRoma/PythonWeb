@@ -7,6 +7,9 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'resume/homePage.html')
 
+def resumeDil(request):
+    return render(request, 'resume/diloveResume.html')
+
 def forms(request):
     if request.method == "POST":
         userform = UserForm(request.POST)

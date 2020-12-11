@@ -16,12 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from resume.views import index
 from resume import views as v
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', v.index),
     path('forms/', v.forms),
+    path('resume/', v.resumeDil)
     
 ]

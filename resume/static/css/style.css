@@ -32,11 +32,11 @@ body {
 .right-style {
     display: flex;
 }
-.main {
+.email {
     display: block;
 }
 
-.mail {
+.cell-numbers {
     display: block;
 }
 
@@ -60,7 +60,7 @@ body {
     margin-left: 290px;
 }
 
-.sdsa h3 {
+.houseEducation h3 {
     margin-left: 300px;
     font-weight: 600;
 }
