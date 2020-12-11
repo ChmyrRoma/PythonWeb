@@ -1,0 +1,72 @@
+* {
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    background-color: #DBD7D2;
+}
+
+#container {
+    width: 100%;
+ }
+ #container-left {
+    width: 20%;
+    float: left;
+    background-color: black;
+ }
+ #container-right {
+     width: 77%;
+     float: right;
+ }
+
+.text-main {
+    color: white;
+}
+
+.right-main {
+    background-color: silver;
+    margin-top: 30px;
+}
+
+.right-style {
+    display: flex;
+}
+.main {
+    display: block;
+}
+
+.mail {
+    display: block;
+}
+
+.img-phone {
+    margin-left: 160px;
+}
+
+.metka-style {
+    display: flex;
+}
+
+.education {
+    display: flex;
+}
+
+.body-right {
+    display: flex;
+}
+.bach-right {
+    color: #62639B;
+    margin-left: 290px;
+}
+
+.sdsa h3 {
+    margin-left: 300px;
+    font-weight: 600;
+}
+
+.programing-state {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
