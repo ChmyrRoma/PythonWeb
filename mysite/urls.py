@@ -22,6 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', v.index),
     path('forms/', v.forms),
-    path('resume/', v.resumeDil)
+    path('resume/', v.resumeDil),
+    path('resumeTvorg/', v.resumeTvorgRu),
+    path('diloveResumeENG/', v.resumeDilEng),
     
 ]
